@@ -1,16 +1,16 @@
 #let adopted-date = datetime(
-  year: 2025,
-  month: 10,
-  day: 21,
+  year: 2026,
+  month: 03,
+  day: 26,
 )
 
 #let endorsement = (
   "from": "Yuhan Wang",
   "position": "President",
   "date": datetime(
-    year: 2025,
-    month: 11,
-    day: 30,
+    year: 2026,
+    month: 03,
+    day: 28,
   ),
 )
 
@@ -116,13 +116,13 @@ The assets and income of the Club shall be applied solely in furtherance of its 
 
 == Status of Constitution
 
-All rules, regulations, requirements and steps outlined by the YouX and the Clubs Policy take precedence over anything outlined in this constitution.
+All rules, regulations, requirements and steps outlined by AUSA and the AUSA Clubs code of conduct take precedence over anything outlined in this constitution.
 
 = Name
 
 + The legal and formal name of the club is *Adelaide University Computer Science Club*.
 
-+ For the purposes of publicity, publication, or other purposes as approved by the President or their delegate, the name of the Club may be written as "CS Club". It may also be written as a syntactically valid source code statement or equivalent for any self-hosting computer programming language which calls a zero-parameter callable unit named "club" contained or referenced within a first-class object named "cs", discarding any returned value. These names need not be capitalised as described.
++ For the purposes of publicity, publication, or other purposes as approved by the President or their delegate, the name of the Club may be written as "CS Club".
 
 = Definitions
 
@@ -140,11 +140,13 @@ Unless a contrary intention is evident, the following definitions apply to this 
 
 / _Constitution_: means this constitution;
 
-/ _Executive_: means the Executive Body as defined in @executive-body;
+/ _Executive_: means the Executive Body as defined in @executive-body, not to be confused with the club executive as defined by AUSA;
+
+/ _The 70% Rule_: means the AUSA requirement that at least 70% of the club membership needs to be Adelaide University Students;
 
 / _GM_: means a General Meeting of the Club;
 
-/ _Office_: means an elected position in the Club provided for in @committee.composition;
+/ _Office_: means an elected position in the Club provided for in @Committee.composition;
 
 / _Officer_: means a member who has been elected to an office;
 
@@ -152,7 +154,7 @@ Unless a contrary intention is evident, the following definitions apply to this 
 
 / _University_: means Adelaide University;
 
-/ _YouX_: means the student union of the University.
+/ _AUSA_: means the student union of the University.
 
 = Membership <membership>
 
@@ -162,33 +164,29 @@ General membership in the Club is open to anyone who:
 
 + pays the membership fee as determined under @membership.fee; and
 
-+ submits to the committee the following information:
++ agrees to and abides by the clubs constitution and any bylaws, policies, and all conditions of registration with AUSA; and
 
-  + full name; and
++ if an Adelaide University student, all requirements below must be met: 
 
-  + preferred email address; and
+  + student submits their full name, student email address, and student ID number to Committee and AUSA.
 
-  + if student at Adelaide University, an ID number.
++ if not an Adelaide University student, all requirements below must be met:
+  
+  + submits full name and preferred email to Committee and AUSA;
+  
+  + granting of membership will not violate the 70% Rule.
 
 == Honorary membership <membership.honorary>
 
 Honorary membership in the Club is open to any person upon whom the Club has conferred. Such a membership may only be conferred by a resolution at a GM.
 
-== Refusal and revocation of membership
+== Refusal of membership
 
-+ The Committee has the right to refuse or revoke the membership of any potential or current member if:
++ Membership may be refused:
 
-  + the applicant or member has proven detrimental to the interests of the Club; or
+  + automatically, if granting of membership would break the 70% rule; or
 
-  + violates the Code of Conduct of the University of Adelaide; or
-
-  + violates the Code of Conduct of the Club; or
-
-  + is otherwise causing serious issues within the Club for its members and/or Committee.
-
-+ Membership may only be refused or revoked after a passing motion of a two-thirds majority during a Committee meeting. The person to whom membership is being refused or revoked will be given an opportunity to attend the meeting and present their case to the Committee, whether in person, electronically, or in writing. The Committee will make reasonable efforts to hold the meeting during a time in which the person may attend to plead their case.
-
-+ In the event that membership is refused or revoked due to issues arising out of interpersonal conflict, the other parties seeking the refusal or revocation will also be permitted to attend the Committee meeting and present their arguments.
+  + By passing motion of two thirds majority during a Committee meeting, if there is cause that the applicant has proven detrimental interests to the club, or would cause serious issues within the Club for its members and/or Committee. 
 
 == Membership fee <membership.fee>
 
@@ -202,13 +200,13 @@ Honorary membership in the Club is open to any person upon whom the Club has con
 
 === Ordinary membership termination <membership.term.ord>
 
-The Committee may suspend any membership for whatever reason if:
+The Committee, at a Committee meeting, may suspend or terminate membership for any reason if:
 
-+ the member is given a written notice of suspension; and
++ the member conducts themselves in a way considered by the Committee to be injurious or prejudicial to the character or interests of the club,
 
-+ a Committee meeting is held to vote on the revocation within 3 weeks of suspension; and
++ the member violates any one of the AUSA Clubs Code of Conduct, the Adelaide University Code of Conduct, the club code of conduct, or constitution; or
 
-+ the member is notified in writing within 48 hours of the conclusion of the Committee meeting.
++ is convicted of an indictable offense.
 
 === Suspended members
 
@@ -220,7 +218,7 @@ During the process as described in @membership.term.ord:
 
 === Member's own choice
 
-Members of the Club may terminate their own membership by writing to the Committee.
+Members of the Club may terminate their own membership by writing to the Secretary.
 
 === Fee refund
 
@@ -228,7 +226,7 @@ Members who have their membership terminated, whether by their own accord or thr
 
 = The Committee
 
-== Composition <committee.composition>
+== Composition <Committee.composition>
 
 + The composition of the Committee is to be laid out in Schedule 1 to the Constitution, while the composition and responsibilities of the Executive Body are defined in @executive-body.
 
@@ -246,9 +244,9 @@ Members who have their membership terminated, whether by their own accord or thr
 
 The Committee acts on behalf of the Club in the general day-to-day running of the Club and must not act to the detriment of the Club's interests.
 
-== Casual vacancies <committee.casual-vacancy>
+== Casual vacancies <Committee.casual-vacancy>
 
-The Committee has the power to fill any casual vacancies arising from circumstances outlined in @committee-change during its term of office. All members shall be given reasonable ability, time and opportunity to apply for casual vacancies. The ability of the Committee to fill casual vacancies shall not be restricted by this constitution.
+The Committee has the power to fill any casual vacancies arising from circumstances outlined in @Committee-change during its term of office. The ability of the Committee to fill casual vacancies shall not be otherwise restricted by this constitution.
 
 == Expiration
 
@@ -268,7 +266,7 @@ The Committee must meet at least once a month during the academic year. The Comm
 
 + polls by the President, through a messaging platform or on a voting website, to permit Committee meetings to be held during times of maximum availability.
 
-== Removal of Committee members due to absences <committee.absences>
+== Removal of Committee members due to absences <Committee.absences>
 
 + If a Committee member fails to attend three Committee meetings in a row without providing an apology, being on a leave of absence, or having alternative arrangements put in place, the Committee member will be immediately removed from their position.
 
@@ -286,7 +284,7 @@ The Committee must meet at least once a month during the academic year. The Comm
 
   + A Committee vote of no less than half of the Committee will result in the removal of the Committee member with immediate effect.
 
-  + Should the Committee vote fail, the affected team may appeal to the Executive Committee to have the individual removed from the team, but not the Committee. The Committee may then choose to fill the position with a casual vacancy in accordance with @committee-change.vacancy or hold a General Meeting.
+  + Should the Committee vote fail, the affected team may appeal to the Executive Committee to have the individual removed from the team, but not the Committee. The Committee may then choose to fill the position with a casual vacancy in accordance with @Committee-change.vacancy or hold a General Meeting.
 
 + If a Committee member is accused of harassment against another Committee member, they will be suspended from their position and may be removed after a Committee meeting subject to a vote of no less than two-thirds of the Committee.
 
@@ -294,11 +292,11 @@ The Committee must meet at least once a month during the academic year. The Comm
 
   + The accused will be allowed to attend electronically and will be allowed to submit a written statement.
 
-+ If a Committee member is convicted of violating a University Code of Conduct resulting in their suspension from the University, they will be immediately removed from their position as a Committee member.
++ If a Committee member ceases to be an Adelaide University student via any means or is suspended from the University, they will be immediately removed from their position as a Committee member.
 
-+ If a Committee member commits a crime resulting in jail time, they will be immediately removed from their position as a Committee member.
++ If a Committee member is confined or jailed by lawful order, or convicted of fraud, dishonesty, or an indictable offence, they will be immediately removed from their position as Committee member.
 
-+ If a Committee member is found to be committing fraudulent activities using the Club bank account, they will be immediately suspended from their position as a Committee member, and a meeting with YouX will be held to discuss the offence.
++ If a Committee member is found to be committing fraudulent activities using the Club bank account, they will be immediately suspended from their position as a Committee member, and a meeting with AUSA will be held to discuss the offence.
 
   + If the funds are not returned, the Club will terminate both their position and their membership.
 
@@ -310,17 +308,19 @@ The Committee must meet at least once a month during the academic year. The Comm
 
   + Committee members must be current members of the Club.
 
+  + Committee members must be current students of Adelaide University.
+
   + The Committee reserves the right to prohibit the election of a nominee that has been previously removed from the Committee for reasons of misconduct, as outlined in Section 5.8(b), 5.8(c), 5.8(d), and 5.8(e), by a vote of no less than half of the Committee.
 
 + Eligibility to hold Executive positions is outlined in @executive-body.eligibility.
 
 == Conflicts of interest
 
-+ Every member of the committee shall endeavour to avoid any actions that may arise in a conflict of interest, or directly compete with the Club.
++ Every member of the Committee shall endeavour to avoid any actions that may arise in a conflict of interest, or directly compete with the Club.
 
-+ Furthermore, an Executive of the Club must not be directly affiliated as a current council or board member of YouX or the Student Representative Council (SRC).
++ Furthermore, an Executive of the Club must not be directly affiliated as a current council or board member of AUSA or the Student Representative Council (SRC).
 
-+ Club Executives must be willing to disclose any club committees that they are involved in, regardless of their position or authority.
++ Club Executives must be willing to disclose any club Committees that they are involved in, regardless of their position or authority.
 
 + Any member of the Executive to be found in breach of these rules will cease to be an Executive of the Club with immediate effect until the matter is resolved.
 
@@ -344,56 +344,58 @@ A special resolution is a motion put forth by the Committee on a specific matter
 
 == Process
 
-A special resolution must be raised during a Committee meeting as set out in @committee-meetings and voted upon as in @committee-meetings.voting. A special resolution is required for a matter to be brought to a GM to be decided.
+A special resolution must be raised during a Committee meeting as set out in @Committee-meetings and voted upon as in @Committee-meetings.voting. A special resolution is required for a matter to be brought to a GM to be decided.
 For the resolution to take effect, the resolution must be put to vote in a GM as set out in @general-meetings.
 
-= Committee Meetings <committee-meetings>
+= Committee Meetings <Committee-meetings>
 
 == Calling a meeting
 
-A meeting is called by the President or the Vice-President to discuss the day-to-day running of the Club and any issues for the Committee to decide. The meeting must be called at least 1 week in advance; if they are not, Committee members may be absent without reason and suffer no consequence as set out in @committee.absences.
+A meeting is called by the President or the Vice-President to discuss the day-to-day running of the Club and any issues for the Committee to decide. The meeting must be called at least 1 week in advance; if they are not, Committee members may be absent without reason and suffer no consequence as set out in @Committee.absences.
 
-== Voting procedure <committee-meetings.voting>
+== Voting procedures <Committee-meetings.voting>
 
 + The President has a deliberative vote and in the case of an equality of votes, may exercise a casting vote. This means they effectively have 2 votes, 1 in the capacity of a member and another in the capacity of the chair of the meeting.
 
-+ The President chairs all Committee meetings and GMs of the Club. In their absence, the chair of the meeting will follow in the order of precedence stated in @committee.composition.
++ The President chairs all Committee meetings and GMs of the Club. In their absence, the chair of the meeting will follow in the order of precedence stated in @Committee.composition.
 
-+ No Committee member may delegate his/her voting right in absentia.
++ No Committee member may delegate their voting right in absentia.
 
-+ The quorum of a Committee meeting is 10 distinct voting members of the Committee.
++ The quorum of a Committee meeting is more than half the members of the Committee.
 
-+ If a quorum is not present, then the Executive has general decisive power.
+== Meeting Procedures
 
-== Minutes
+All Committee meetings must include the following:
 
-Minutes of all meetings must be kept and they must include:
++ a financial report tabled by the treasurer;
 
-+ the names of the persons that attended that meeting; and
++ minutes of the meeting being taken and kept by the secretary or a nominated member if the secretary is not in attendance, which include:
 
-+ discussion points; and
+  + the names of the persons that attended the meeting and were able to identify themselves and take part in discussions; and
+  
+  + discussion points; and
 
-+ decisions of the Committee.
+  + decisions of the Committee.
 
 == Special circumstances
 
-Upon receiving a written petition of 3 voting Committee members, the President, or in their absence the Vice-President, must call a meeting of the committee within 14 days.
+Upon receiving a written petition of more than a quarter of voting Committee members, the President, or in their absence the Vice-President, must call a meeting of the Committee within 14 days.
 
-= Extraordinary Committee Changes <committee-change>
+= Extraordinary Committee Changes <Committee-change>
 
 == Cessation of office
 
 A member of the Committee ceases holding their office if:
 
-+ the President or Vice-President receives a written notice of resignation from that member; or
++ the Secretary, or the President/Vice President if Committee member is the Secretary, receives a written notice of resignation from that member; or/
 
-+ the member is absent, without leave of absence being granted by resolution of the Committee, for 3 consecutive meetings of the Committee of which the member was notified; or
++ they are removed from Committee via absences under section 5.7, or misconduct under section 5.8; or
 
 + their membership in the Club is terminated as set out in @membership.term; or
 
 + a motion of no-confidence in a Committee member's ability to perform their duties is expressed by at least half of Club members or 50 Club members, whichever is fewer, whereby an SGM must be called to vote on the matter of changing the Committee.
 
-== Filling a vacancy <committee-change.vacancy>
+== Filling a vacancy <Committee-change.vacancy>
 
 + When an office becomes vacant, a GM must called to fill the position within 6 weeks unless:
 
@@ -401,9 +403,7 @@ A member of the Committee ceases holding their office if:
 
   + there is no Academic Day within the next 6 weeks. In this instance, the GM is to be held within 2 weeks of the next Academic Day; or
 
-  + the office is filled as a casual vacancy as specified in @committee.casual-vacancy.
-
-+ The President, or in their absence, the Vice-President, may appoint any volunteering Club member to fill the office in the interim.
+  + the office is filled as a casual vacancy as specified in @Committee.casual-vacancy.
 
 = The Executive Body <executive-body>
 
@@ -447,7 +447,7 @@ The Executive has general power to make regulations necessary to put into effect
 
 == Acting presidencies
 
-In the event the President is unable to fulfil their duties, the Executive has the power to promote, in the order of precedence set out in @committee.composition, a member of the executive to acting President subject to ratification at a General Meeting.
+In the event the President is unable to fulfil their duties, the Executive has the power to promote, in the order of precedence set out in @Committee.composition, a member of the executive to acting President subject to ratification at a General Meeting.
 
 == Eligibility to hold positions <executive-body.eligibility>
 
@@ -475,7 +475,7 @@ The President is responsible for:
 
 + ensuring that the Club is run in accordance with the Constitution and its Schedules; and
 
-+ ensuring that the Club is run in accordance with the Clubs Policy of YouX; and
++ ensuring that the Club is run in accordance with any AUSA policies concerning clubs; and
 
 + calling meetings of the Committee, the Executive, and General Meetings; and
 
@@ -607,11 +607,11 @@ A Returning Officer must be appointed by the Committee prior to the AGM. The ret
 
 == Electing Officers
 
-A new Committee must be formed at each AGM. The officers as stated in @committee.composition must be elected by members of the Club.
+A new Committee must be formed at each AGM. The officers as stated in @Committee.composition must be elected by members of the Club.
 
 = The Trustees Upon Winding Up
 
-In the event that the Club winds up or lapses, the assets remaining, after the paying of debts and liabilities, shall be transferred to YouX, and those assets shall be used by YouX in accordance with the YouX constitution.
+In the event that the Club winds up or lapses, the assets remaining, after the paying of debts and liabilities, shall be transferred to AUSA, and those assets shall be used by AUSA in accordance with the AUSA constitution.
 
 = The Constitution
 

@@ -1,7 +1,7 @@
 #let adopted-date = datetime(
-  year: 2025,
-  month: 10,
-  day: 21,
+  year: 2026,
+  month: 03,
+  day: 30,
 )
 
 #set document(
@@ -118,7 +118,7 @@ Positions are defined @composition, in order of precedence.
 
 + This Schedule may be amended by the Executive by a simple majority vote. This includes the ability to establish new positions, or to remove existing positions, as well as to amend the responsibilities of existing positions.
 
-+ Any amendments to this Schedule must be consistent with the Constitution and the Clubs Policy of YouX.
++ Any amendments to this Schedule must be consistent with the Constitution and any clubs policies by AUSA.
 
 = Composition <composition>
 
@@ -144,11 +144,11 @@ Positions are defined @composition, in order of precedence.
 
   + the Design Manager;
 
-  + the Duck Lounge Liaison;
+  + up to two Duck Lounge Liaisons;
 
   + up two two Partnerships & Sponsorships Officers;
 
-  + up to two Open Source Officers;
+  + up to four Open Source Officers;
 
   + up to four Events Officers;
 
@@ -162,7 +162,7 @@ Positions are defined @composition, in order of precedence.
 
   + the First-Year Representative; and
 
-  + optionally, the Advisor to the Executive.
+  + optionally, the Advisors to the Executive.
 
 + The Committee comprises teams that are managed by the managers or the Executive. They are:
 
@@ -462,8 +462,8 @@ All members of the Committee have a responsibility to:
       [Events Manager],[1],
       [Social Media & Marketing Manager],[1],
       [Design Manager],[1],
-      [Duck Lounge Liaison],[1],
-      [Open Source Officer],[3],
+      [Duck Lounge Liaison],[2],
+      [Open Source Officer],[4],
       [Partnerships & Sponsorships Officer],[2],
       [Events Officer],[5],
       [Social Media & Marketing Officer],[4],
@@ -471,7 +471,7 @@ All members of the Committee have a responsibility to:
       [Human Resources Officer],[1],
       [Postgraduate Representative],[1],
       [First-Year Representative],[1],
-      [Advisor to the Executive], [1],
+      [Advisor to the Executive], [4],
       table.hline(stroke: 0.7pt),
       [*Total*], [*28*],
     )
