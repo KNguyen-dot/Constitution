@@ -39,22 +39,6 @@
   indent: 1.5em,
 )
 
-#set page(
-  paper: "a4",
-  margin: (bottom: 3cm, left: 2cm, right: 2cm, top: 2cm), // IMPORTANT FOR FOOTER.
-  footer: context { 
-    if counter(page).get().first() > 2{
-      align(left)[
-      #text(size: 10pt)[#line(length: 100%)]
-      Adelaide University Computer Science Club \
-      AUSA Registered Club Constitution | June 2026 
-      #h(1fr)
-      Page #counter(page).display("1")
-      ]
-    }
-  },
-)
-
 #set text(
   lang: "en",
   region: "AU",
